@@ -1,0 +1,23 @@
+ul li{
+	list-style-type: circle}
+
+ul li ul li {
+	list-style-type: decimal;
+	font-weight: bold;
+	font-style: italic;
+	color: red}
+	
+ul p {
+	font-size: 25;
+	color:green}
+
+body {
+	background-image: url("../../imagenes/fondo_ej11.png")}
+	
+img {
+	border:solid;
+	border-width:5px;
+	border-color:yellow;
+	position: relative;
+top: 8%; left: 15%;
+	}
