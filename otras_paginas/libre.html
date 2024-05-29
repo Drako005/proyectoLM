@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="../imagenes/logofinal_pestaña.png">
+<title>Galería Digital</title>
+<link href="../estilo/estilo_libre.css" rel="stylesheet" type="text/css">
+<link href="../estilo/estilo.css" rel="stylesheet" type="text/css">
+
+	
+<style>
+		body{
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+		}
+	a.enlace_externo{
+		color:white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	a.enlace_externo:visited{
+		color:white;
+	}
+	
+	</style>
+	
+	<script async src="https://static1.sharpweather.com/widgetjs/?id=idaf4ea5ebf0a46"></script>
+	<script>
+function mostrarImagen2() {
+    var imagenOriginal = document.querySelector('.foto_inicial');
+    var imagenSustituir = document.querySelector('.foto_sustituir');
+    imagenOriginal.style.display = 'none'; // Oculta la primera imagen
+    imagenSustituir.style.display = 'initial'; // Muestra la segunda imagen
+}
+
+function ocultarImagen2() {
+    var imagenOriginal = document.querySelector('.foto_inicial');
+    var imagenSustituir = document.querySelector('.foto_sustituir');
+    imagenOriginal.style.display = 'initial'; // Muestra la primera imagen
+    imagenSustituir.style.display = 'none'; // Oculta la segunda imagen
+}
+
+	</script>
+</head>
+
+<body>
+	<div class="contenedor">
+		<div class="encabezado">		
+			<div class="logo_slogan">
+				<a href="../index.html"><img class="logo" src="../imagenes/logo_final.png" alt="logo"></a>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="libre.html">Galería</a></li>
+					<li><a href="ejercicios.html">Ejercicios</a></li>
+					<li><a href="registro.html">Registro</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="contenido">
+			<h1 class="fuente">Galería de Maquetas &nbsp;</h1>
+		  <article class="articulo_info">
+			
+			<p style="font-weight: bold;">En esta pagina se muestran varias maquetas creadas por mi expuestas en forma de galería de imágenes. Todo ha sido pintado con pincel y aerógrafo.🖌️🎨
+			</p>
+			
+			</article>
+			
+			<!--Articulo 1-->
+			
+			  <article class="articulos_pequenios">
+			    
+			    <p>Figura de soldado alemán de la <a class="enlace_externo" href="https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial" target="_blank">Segunda Guerra Mundial</a>
+		        </p>
+			    <img src="../imagenes/foto_soldado.jpg" alt="soldado aleman" class="fotos_pequenias">
+			    </article>
+			  <!--Articulo 2-->
+			  <article class="articulos_pequenios">
+			    
+			    <p>Marine Espacial de los Ultramarines <a href="https://warhammer40000.com/es/" target="_blank" class="enlace_externo">Warhammer 40k</a>
+		        </p>
+			    <img src="../imagenes/wh1.jpg" alt="foto" class="fotos_pequenias foto_inicial" onmouseover="mostrarImagen2()" onmouseout="ocultarImagen2()">	
+				<img src="../imagenes/wh4_final.jpg" alt="figura warhammer" class="foto_sustituir fotos_pequenias">
+			    </article>
+			  
+			  <!--Articulo 5 GRANDE-->
+			  <article class="articulos_grande">
+			    
+			    <p>Única maqueta civil, se trata de un modelo de <a href="https://www.landrover.es/index.html" target="_blank" class="enlace_externo">Land Rover</a>
+		        </p>
+			    <img src="../imagenes/land_final.png" class="fotos_grandes" style="border-radius" alt="figura coche">
+			    </article>
+			  
+			  <!--Articulo 3-->
+			  
+			  <article class="articulos_pequenios">
+			    
+			    <p>Marine espacial con estandarte
+		        </p>
+			    <img src="../imagenes/wh2.jpg" alt="marine warhammer" class="fotos_pequenias">
+			    </article>
+			  <!--Articulo 4-->
+			  <article class="articulos_pequenios">
+			    
+			    <p>Teniente de los Ultramarines		
+		        </p>
+			    <img src="../imagenes/wh3.jpg" alt="marine warhammer" class="fotos_pequenias">
+			    </article>
+			  <!--Articulo 3-->
+			  
+			  
+			  
+			  <article class="articulos_grande">
+			    
+			    <p>Panzer II alemán de la <a class="enlace_externo" href="https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial" target="_blank">Segunda Guerra Mundial</a>
+		        </p>
+			    <img src="../imagenes/tanque1_editado.png" class="fotos_grandes" style="border-radius" alt="tanque segunda guerra mundial">
+			    </article>
+			  
+			  <article class="articulos_grande">
+			    
+			    <p>KV 1 soviético de la <a class="enlace_externo" href="https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial" target="_blank">Segunda Guerra Mundial</a>
+		        </p>
+			    <img src="../imagenes/tanque2_final.png" class="fotos_grandes" style="border-radius" alt="tanque segunda guerra mundial">
+			    </article>
+			  
+			  <article class="articulos_grande">
+			    
+			    <p>Dreadnought de los Ultramarines
+		        </p>
+			    <img src="../imagenes/dread_sinfondo.png" class="fotos_grandes" style="border-radius" alt="figura warhammer">
+			    </article>
+
+		  <table border="1" style="margin-bottom: 20px; margin: auto;">
+			  <tr><th colspan="3" class="color_titulo_tabla">Años de pintado</th></tr>
+  <tr>
+    <th>2022</th>
+    <th>2023</th>
+    <th>2024</th>
+  </tr>
+  <tr>
+    <td>Marine espacial</td>
+    <td>Dreadnought</td>
+    <td>Tanque soviético</td>
+  </tr>
+  <tr>
+    <td>Teniente marine espacial</td>
+    <td>Tanque alemán</td>
+    <td>Land Rover</td>
+  </tr>
+</table>
+
+				
+			<article class="article1">
+    
+    <p>Hay varios tipos de maquetas expuestos:
+      <ul style="list-style:disc" class="lista_izquierda_movil">
+        <li><span class="palabras_negrita">Vehiculos</span><ul style="list-style-type:square">
+				<li>Civiles</li>
+				<li>Militares</li>
+			</ul></li>
+		<li><span class="palabras_negrita">Figuras</span><ul style="list-style-type:square">
+				<li>Warhammer 40K</li>
+				<li>Segunda Guerra Mundial</li>
+			</ul></li>
+        
+        </ul></p>
+    
+  </article>
+
+			
+		
+		
+	
+		<div class="div_boton">
+		<a href="libre.html" class="boton">Volver arriba</a>
+		</div>
+			
+		</div>
+		
+		
+			
+		<div class="pie">
+			<div><img src="../imagenes/redes_footer_sinfondo.png" alt="redes" class="redes" usemap="#mapa_redes"></div>
+			<map name="mapa_redes">
+        <area shape="circle" coords="26,26,12" href="https://www.instagram.com" target="_blank"  alt="Instagram">
+        <area shape="circle" coords="90,26,12" href="https://www.facebook.com" target="_blank" alt="Facebook">
+        <area shape="circle" coords="154,26,12" href="https://www.twitter.com" target="_blank"  alt="Twitter">
+    </map>
+			
+			
+		<div class="qr_tiempo">
+
+			<div><img src="../imagenes/qrPagina.png" alt="foto" class="foto_qr"></div>
+			<!-- ignorar el fallo, funciona igualmente -->
+			<div id="ww_57e5f66d8cbbf" v='1.3' loc='id' a='{"t":"horizontal","lang":"es","sl_lpl":1,"ids":["wl6596"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Más previsiones: <a href="https://oneweather.org/es/madrid/25_days/" id="ww_57e5f66d8cbbf_u" target="_blank">Tiempo 25 días Madrid</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_57e5f66d8cbbf"></script>
+			
+
+			</div>
+			<div>
+			<p style="color: white">©Samael González 2024</p>
+			</div>
+			
+			
+
+		
+		</div>
+	</div>
+	
+</body>
+</html>

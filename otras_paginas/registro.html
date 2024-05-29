@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="../imagenes/logofinal_pestaña.png">
+<title>Página Registro</title>
+<link href="../estilo/estilo.css" rel="stylesheet" type="text/css">
+<link href="../estilo/estilo_registro.css" rel="stylesheet" type="text/css">
+	<style>
+		body{
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+			
+		}
+	
+	</style>
+	
+	<script async src="https://static1.sharpweather.com/widgetjs/?id=idaf4ea5ebf0a46"></script>
+</head>
+
+<body>
+	
+	<div class="contenedor">
+		<div class="encabezado">		
+			<div class="logo_slogan">
+				<a href="../index.html"><img class="logo" src="../imagenes/logo_final.png"  alt="logo"></a>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="libre.html">Galería</a></li>
+					<li><a href="ejercicios.html">Ejercicios</a></li>
+					<li><a href="registro.html">Registro</a></li>
+				</ul>
+			
+			</nav>
+		</div>
+		<!--subir esto a github-->
+		<div class="contenido">
+			<div>
+    		<h1>¿Quieres suscribirte? ¡Rellena este formulario!</h1>
+			</div>
+			<hr>
+			<form>
+				<fieldset>
+					
+				<label>Nombre: <input type="text" name="nombre" size="20"></label>
+				<br>
+				<label>Apellidos: <input type="text" name="apellidos" size="38"></label>
+				<br>
+				<label for="start">Fecha de nacimiento:
+				<input type="date" id="start" name="edad" value="2000-01-01" min="1900-01-01" max="2024-04-31" /></label>
+				<br>
+				<label>Correo electrónico: <input type="text" name="correo" size="40"></label>
+				<br>
+				<label class="label_sexo">
+				Sexo:
+				<label class="en_linea">
+    				<input type="radio" name="sexo" value="h"> Hombre
+				</label>	
+				<label class="en_linea">
+   					<input type="radio" name="sexo" value="m"> Mujer
+				</label>
+				<label class="en_linea">
+					<input type="radio" name="sexo" value="ns/nc"> Prefiero no decirlo
+				</label>
+				</label>	
+				<label>
+					<p>Comentarios:</p>
+				<textarea name="textarea" rows="5" cols="60" placeholder="Si quieres decirnos algo, escríbelo aqui."></textarea>
+
+				</label>
+				<br>
+				<div>
+				<input type="submit" value="Enviar" id="boton_enviar" class="enviar_hover">
+				<input type="reset" value="Reiniciar" id="boton_reset" class="reiniciar_hover">
+  				</div>
+				</fieldset>
+			</form>
+			
+		
+		
+		
+		</div>
+		<div class="pie">
+			<div><img src="../imagenes/redes_footer_sinfondo.png" alt="redes" class="redes" usemap="#mapa_redes"></div>
+			<map name="mapa_redes">
+        <area shape="circle" coords="26,26,12" href="https://www.instagram.com" target="_blank"  alt="Instagram">
+        <area shape="circle" coords="90,26,12" href="https://www.facebook.com" target="_blank" alt="Facebook">
+        <area shape="circle" coords="154,26,12" href="https://www.twitter.com" target="_blank"  alt="Twitter">
+    </map>
+			
+			<div class="qr_tiempo">
+
+			<div style=""><img src="../imagenes/qrPagina.png" alt="foto" class="foto_qr"></div>
+			<!-- ignorar el fallo, funciona igualmente -->
+			<div id="ww_57e5f66d8cbbf" v='1.3' loc='id' a='{"t":"horizontal","lang":"es","sl_lpl":1,"ids":["wl6596"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Más previsiones: <a href="https://oneweather.org/es/madrid/25_days/" id="ww_57e5f66d8cbbf_u" target="_blank">Tiempo 25 días Madrid</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_57e5f66d8cbbf"></script>
+		</div>
+			<p style="color: white">©Samael González 2024</p>
+		</div>
+	</div>
+	
+</body>
+</html>
